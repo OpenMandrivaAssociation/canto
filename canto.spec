@@ -17,6 +17,7 @@ BuildRequires:  python-devel
 BuildRequires:  ncurses-devel
 BuildRequires:  python-feedparser
 BuildRequires:  python-chardet
+BuildRequires:  ncursesw-devel
 
 %description
 Canto is an Atom/RSS feed reader for the console that is meant to be quick,
