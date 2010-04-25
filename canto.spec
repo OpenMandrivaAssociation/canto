@@ -2,7 +2,7 @@
 %define python_compile     python -c "import compileall; compileall.compile_dir('.')"
 %define name    canto
 %define version 0.7.6
-%define release %mkrel 2
+%define release %mkrel 3
 
 Name:           %name
 Version:        %version
@@ -15,6 +15,7 @@ Source:         http://codezen.org/static/%{name}-%{version}.tar.gz
 BuildRoot:      %{_tmppath}/%{name}-%{version}-buildroot
 Requires:	python-chardet
 Requires:	python-feedparser
+Requires:       xclip
 BuildRequires:  python-devel
 BuildRequires:  ncurses-devel
 BuildRequires:  python-feedparser
