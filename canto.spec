@@ -1,7 +1,7 @@
 %define python_compile_opt python -O -c "import compileall; compileall.compile_dir('.')"
 %define python_compile     python -c "import compileall; compileall.compile_dir('.')"
 %define name    canto
-%define version 0.7.6
+%define version 0.7.9
 %define release %mkrel 3
 
 Name:           %name
