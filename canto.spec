@@ -2,7 +2,7 @@
 %define python_compile     python -c "import compileall; compileall.compile_dir('.')"
 %define name    canto
 %define version 0.7.10
-%define release %mkrel 1
+%define release %mkrel 2
 
 Name:           %name
 Version:        %version
