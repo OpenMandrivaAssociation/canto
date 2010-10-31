@@ -57,4 +57,4 @@ rm -rf %buildroot
 %{py_platsitedir}/%{name}/widecurse.so
 %{py_platsitedir}/Canto-%{version}-py%{pyver}.egg-info
 %_bindir/%{name}*
-%_datadir/man/man1/%{name}*.1.lzma
+%_datadir/man/man1/%{name}*.1.*
