@@ -3,7 +3,7 @@
 
 Name:		canto
 Version:	0.7.10
-Release:	3
+Release:	4
 Summary:	An Atom/RSS feed reader for the console
 Group:		Networking/News
 License:	GPLv2+
