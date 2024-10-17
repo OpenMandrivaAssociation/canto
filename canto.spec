@@ -7,7 +7,7 @@ Release:	4
 Summary:	An Atom/RSS feed reader for the console
 Group:		Networking/News
 License:	GPLv2+
-URL:		http://codezen.org/canto/
+URL:		https://codezen.org/canto/
 Source:		http://codezen.org/static/%{name}-%{version}.tar.gz
 BuildRequires:	python-devel
 BuildRequires:	python-chardet
